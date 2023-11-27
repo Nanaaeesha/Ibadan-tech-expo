@@ -1,0 +1,537 @@
+body{
+    background-color: whitesmoke;
+}
+.roun{
+    border-radius: 100px;
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: 500px;
+    left: 500px;
+}
+
+
+
+
+.wid{
+    width: 50px;
+    margin-top: 30px;
+    margin-left: 15px;
+    animation: star 2s infinite ;
+    
+}
+@keyframes star{
+   100%{
+        transform: rotate(360deg);
+    }
+}
+.wi{
+    width: 480px;
+    background-color: gold;
+    border-color: gold;
+    height: 45px;
+    color: blue;
+    text-align: center;
+
+  
+    padding-left: 50px;
+}
+.we{
+    width: 480px;
+    height: 45px;
+    color: black;
+
+    padding-right: 50px;
+    text-align:center ;
+    background-image:linear-gradient(to right, #132351) ;
+
+}
+
+.center{
+    text-align: center;
+    background-color: #5576cf;
+    
+}
+.alice{
+    background-color: whitesmoke;
+}
+.line{
+    margin-bottom: 650px;
+    background-color: gold;
+    color: red;
+    
+}
+.bot{
+    margin-bottom: 650px;
+}
+.head{
+    color:#224093;
+    margin-left: 10px;
+    border-bottom: 2px solid #fab00f;
+}
+
+.yel{
+    color: yellow;
+    font-weight: 800px;
+}
+
+.blue{
+    color: #224093;
+}
+
+#back{
+    background-image: linear-gradient( to left, #5576cf, #5576cf, #c68f09);
+}
+
+.par{
+    transform: translateY(-200px);
+    border-top: 2px solid #fab00f;
+    padding-top: 20px;
+    margin-top: 20px;
+    padding-left: 5px;
+}
+.trans{
+    transform: translateY(-200px);
+
+}
+.tick{
+    color:#224093;
+    border-bottom: 2px solid #fab00f;
+}
+.pap{
+    transform: translateY(255px);
+    padding-left: 10px;
+    margin-left: 15px;
+}
+.pan{
+    text-align: center;
+    color:  #224093;
+}
+.smoke{
+    background-color: whitesmoke;
+
+}
+
+.mtn{
+     position: absolute;
+    animation: mtn 5s linear infinite;;
+}
+
+@keyframes mtn{
+    from{
+        transform:translate(950px)
+
+    }
+    to{
+        transform: translate(-210px);
+    }
+}
+
+.glo{
+    position: absolute;
+   animation: glo 5s linear infinite;;
+}
+
+@keyframes glo{
+   from{
+       transform:translate(1050px)
+
+   }
+   to{
+       transform: translate(-310px);
+   }
+}
+
+.air{
+    position: absolute;
+   animation: air 5s linear infinite;;
+}
+
+@keyframes air{
+   from{
+       transform:translate(2050px)
+
+   }
+   to{
+       transform: translate(-410px);
+   }
+}
+
+.eti{
+    position: absolute;
+   animation: eti 5s linear infinite;;
+}
+
+@keyframes eti{
+   from{
+       transform:translate(3050px)
+
+   }
+   to{
+       transform: translate(-530px);
+   }
+}
+
+.stir{
+    position: absolute;
+}
+
+@keyframes stir{
+   from{
+       transform:translate(1200px)
+
+   }
+   to{
+       transform: translate(-660px);
+   }
+}
+#mtn{
+    width: 150px;
+   animation: stir 20s linear infinite;
+   margin-right: 4em;
+}
+.watch{
+    background-image: linear-gradient( to right, #132351, #132351, #da5d63);
+    margin-top: 50px;
+}
+#lap{
+    width: 150px;
+    transform: translatey(170px);
+    
+}
+#girl{
+    width: 350px;
+    transform: translate();
+}
+#what{
+    width: 100px;
+    transform: translatex(150px);
+}
+
+#girle{
+    color: whitesmoke;
+    transform: translatey(50px);
+    margin-left: 25px;
+}
+
+#glo{
+    width: 70px;
+   animation: stir 20s linear infinite;
+   margin-right: 4em;
+}
+#hov:hover{
+    background-color: pink;
+    color: white;
+}
+
+
+#foot{
+    height: 70px;
+    background-color: #132351;
+    display: flex;
+    justify-content: space-between;
+}
+#us{
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+    font-size: 20px;
+    font-weight: 700px;
+    line-height: 30px;
+    color: #fab00f;
+}
+#follow{
+    display: flex;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 700px;
+    line-height: 30px;
+}
+#logs{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+#mes{
+    display: flex;
+
+}
+#me{
+    margin-top: 10px;
+    margin-right: 60px;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+/* responsiveness */
+body{
+    background-color: whitesmoke;
+}
+.roun{
+    border-radius: 100px;
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: 530px;
+    left: 540px;
+}
+
+
+
+
+.wid{
+    width: 50px;
+    margin-top: 7px;
+    margin-left: 5px;
+    animation: star 2s infinite ;
+    
+}
+@keyframes star{
+   100%{
+        transform: rotate(360deg);
+    }
+}
+.wi{
+    width: 480px;
+    background-color: gold;
+    border-color: gold;
+    height: 45px;
+    color: blue;
+    text-align: center;
+
+  
+    padding-left: 50px;
+}
+.we{
+    width: 480px;
+    height: 45px;
+    color: black;
+
+    padding-right: 50px;
+    text-align:center ;
+    background-image:linear-gradient(to right, #132351) ;
+
+}
+
+.center{
+    text-align: center;
+    background-color: #5576cf;
+    
+}
+.alice{
+    background-color: whitesmoke;
+}
+.line{
+    margin-bottom: 650px;
+    background-color: gold;
+    color: red;
+    
+}
+.bot{
+    margin-bottom: 650px;
+}
+.head{
+    color:#224093;
+    margin-left: 10px;
+    border-bottom: 2px solid #fab00f;
+}
+
+.yel{
+    color: yellow;
+    font-weight: 800px;
+}
+
+.blue{
+    color: #224093;
+}
+
+#back{
+    background-image: linear-gradient( to left, #5576cf, #5576cf, #c68f09);
+}
+
+.par{
+    transform: translateY(-200px);
+    border-top: 2px solid #fab00f;
+    padding-top: 20px;
+    margin-top: 20px;
+    padding-left: 5px;
+}
+.trans{
+    transform: translateY(-200px);
+
+}
+.tick{
+    color:#224093;
+    border-bottom: 2px solid #fab00f;
+}
+.pap{
+    transform: translateY(255px);
+    padding-left: 10px;
+    margin-left: 15px;
+}
+.pan{
+    text-align: center;
+    color:  #224093;
+}
+.smoke{
+    background-color: whitesmoke;
+
+}
+
+.mtn{
+     position: absolute;
+    animation: mtn 5s linear infinite;;
+}
+
+@keyframes mtn{
+    from{
+        transform:translate(950px)
+
+    }
+    to{
+        transform: translate(-210px);
+    }
+}
+
+.glo{
+    position: absolute;
+   animation: glo 5s linear infinite;;
+}
+
+@keyframes glo{
+   from{
+       transform:translate(1050px)
+
+   }
+   to{
+       transform: translate(-310px);
+   }
+}
+
+.air{
+    position: absolute;
+   animation: air 5s linear infinite;;
+}
+
+@keyframes air{
+   from{
+       transform:translate(2050px)
+
+   }
+   to{
+       transform: translate(-410px);
+   }
+}
+
+.eti{
+    position: absolute;
+   animation: eti 5s linear infinite;;
+}
+
+@keyframes eti{
+   from{
+       transform:translate(3050px)
+
+   }
+   to{
+       transform: translate(-530px);
+   }
+}
+
+.stir{
+    position: absolute;
+}
+
+@keyframes stir{
+   from{
+       transform:translate(1200px)
+
+   }
+   to{
+       transform: translate(-660px);
+   }
+}
+#mtn{
+    width: 150px;
+   animation: stir 20s linear infinite;
+   margin-right: 4em;
+}
+.watch{
+    background-image: linear-gradient( to right, #132351, #132351, #da5d63);
+    margin-top: 50px;
+}
+#lap{
+    width: 150px;
+    transform: translatey(170px);
+    
+}
+#girl{
+    width: 350px;
+    transform: translate();
+}
+#what{
+    width: 100px;
+    transform: translatex(150px);
+}
+
+#girle{
+    color: whitesmoke;
+    transform: translatey(50px);
+    margin-left: 25px;
+}
+
+#glo{
+    width: 70px;
+   animation: stir 20s linear infinite;
+   margin-right: 4em;
+}
+#hov:hover{
+    background-color: pink;
+    color: white;
+}
+
+
+#foot{
+    height: 100px;
+    background-color: #132351;
+    display: flex;
+    justify-content: space-between;
+}
+#us{
+    margin-top: 25px;
+    padding-left: 20px;
+    padding-right: 10px;
+    font-size: 20px;
+    font-weight: 700px;
+    line-height: 30px;
+    color: #fab00f;
+}
+#follow{
+    display: flex;
+    padding-left: 15px;
+    font-size: 20px;
+    font-weight: 700px;
+    line-height: 30px;
+}
+#logs{
+    margin-bottom: 18px;
+    margin-left: 10px;
+}
+#mes{
+    display: flex;
+
+}
+#me{
+    margin-top: 10px;
+    margin-right: 60px;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+
+
